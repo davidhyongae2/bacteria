@@ -7,15 +7,15 @@ Program language: Javascript, plotly, d3.js.
 ## Results
 Here is a javascript app that counts the bacteria Operational Taxonomic Unit (OTU), which describes a genus similarity. For example, a JSON and d3.js utilize the filter data of volunteers to display the ten bacteria colony species and their OTU, as they can be hoover over on the bar chart. 
 
-[Figure 1](https://github.com/davidhyongae2/UFO/blob/main/Figure1.png).
+[Figure 1](https://github.com/davidhyongae2/bacteria/blob/main/Figure1.png).
 
 Bubble chart describes the bacteria species counts as OTU grouping. A single sample is then can be tabled as id, ethnicity, gender, location, age, frequency. But most importantly, at the sample level, the bubble chart overlaps the OTUs. 
 
-[Figure 2a](https://github.com/davidhyongae2/UFO/blob/main/Figure2a.png)
+[Figure 2a](https://github.com/davidhyongae2/bacteriablob/main/Figure2a.png)
 
 Gauge chart is one of the more unique type, where a clear catological depiction of volunteers' belly button washing is compared either bar chart or bubble chart alongside the Gauge chart. For each sample, the OTU relationship of the volunteers' samples and bacteria genus forms the biodiversity. There appears to be a greater degree of OTU for the initial sample, while the OTU variation are greater with more sampling. Further studies need to be done which may lead to hospital care and proper clinical testing of the samples. 
 
-[Figure 2b](https://github.com/davidhyongae2/UFO/blob/main/Figure2b.png).
+[Figure 2b](https://github.com/davidhyongae2/bacteria/blob/main/Figure2b.png).
 
 ## Summary
 1. Provide a high-level usage of d3.js, and other plotly to translate sample.json to create a functional web app.
