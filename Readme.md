@@ -1,21 +1,21 @@
 ## Overview of the analysis
-JavaScript, Plotly, and D3.js are used to create a horizontal bar chart to display human volunteers (OTUs) using Plotly and the d3 dropdown functions. 
+JavaScript, Plotly, and D3.js are used to create a horizontal bar chart that displays human volunteers (OTUs) using Plotly and the D3 dropdown functions. 
 
 ## Resources
-Program language: Javascript, plotly, d3.js.
+Programming language: Javascript, plotly, d3.js.
 
 ## Results
 Here is a javascript app that counts the bacteria Operational Taxonomic Unit (OTU), which describes a genus similarity. For example, JSON and d3.js utilize the filter data of volunteers to display the ten bacteria colony species and their OTU, as they can be hoover over on the bar chart. 
 
-[Figure 1](https://github.com/davidhyongae2/bacteria/blob/main/Figure1.png).
+![map][Figure 1](https://github.com/davidhyongae2/bacteria/blob/main/Figure1.png).
 
-The bubble chart describes the bacteria species count as OTU grouping. A single sample is then can be tabled as id, ethnicity, gender, location, age, and frequency. But most importantly, at the sample level, the bubble chart overlaps the OTUs. 
+The bubble chart describes the bacteria species count as an OTU grouping. A single sample can then be tabled by ID, ethnicity, gender, location, age, and frequency. Most importantly, at the sample level, the bubble chart overlaps the OTUs. 
 
-[Figure 2a](https://github.com/davidhyongae2/bacteria/blob/main/Figure2a.png)
+![map][Figure 2a](https://github.com/davidhyongae2/bacteria/blob/main/Figure2a.png)
 
-A gauge chart is one of the more unique types, where a clear categorical depiction of volunteers' belly button washing is compared to either a bar chart or bubble chart alongside the Gauge chart. For each sample, the OTU relationship of the volunteers' samples and the bacteria genus forms the biodiversity. There appears to be a greater degree of OTU for the initial sample, while the OTU variation is greater with more sampling. Further studies need to be done which may lead to hospital care and proper clinical testing of the samples. 
+A gauge chart is one of the more unique types, where a clear categorical depiction of volunteers' belly button washing is compared to a bar chart or bubble chart alongside the Gauge chart. The OTU relationship of the volunteers' samples and the bacteria genus forms the biodiversity for each sample. There is a greater degree of OTU for the initial sample, while the OTU variation is greater with more sampling. Further studies need to be done, which may lead to hospital care and proper clinical testing of the samples. 
 
-[Figure 2b](https://github.com/davidhyongae2/bacteria/blob/main/Figure2b.png).
+![map][Figure 2b](https://github.com/davidhyongae2/bacteria/blob/main/Figure2b.png).
 
 ## Summary
 1. Provide a high-level usage of d3.js and other plotly to translate sample.json to create a functional web app.
