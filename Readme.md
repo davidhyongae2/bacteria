@@ -1,26 +1,37 @@
-## Overview of the analysis
-JavaScript, Plotly, and D3.js are used to create a horizontal bar chart to display human volunteers (OTUs) using Plotly and the d3 dropdown functions. 
+## Project
+Bacteria Counting Dashboard
+## Overview
+JavaScript, Plotly, and D3.js are used to create a horizontal bar chart displaying human volunteers (OTUs) with D3 dropdown functions.
 
-## Resources
-Program language: Javascript, plotly, d3.js.
+## Tools used:
+Program language: JavaScript, plotly, d3.js.
 
-## Results
-Here is a javascript app that counts the bacteria Operational Taxonomic Unit (OTU), which describes a genus similarity. For example, JSON and d3.js utilize the filter data of volunteers to display the ten bacteria colony species and their OTU, as they can be hoover over on the bar chart. 
+## Data: 
+Json OTU data from https://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
 
-[Figure 1](https://github.com/davidhyongae2/bacteria/blob/main/Figure1.png).
+## Process:
+1. Data Preparation
+2. Exploratory Data Analysis
+3. Insights & Visualization
 
-The bubble chart describes the bacteria species count as OTU grouping. A single sample is then can be tabled as id, ethnicity, gender, location, age, and frequency. But most importantly, at the sample level, the bubble chart overlaps the OTUs. 
+## Results & Key Takeaways:
+This JavaScript application effectively counts Operational Taxonomic Units (OTUs), highlighting the similarity among genera. By leveraging JSON and D3.js, it filters volunteer data to display the ten bacterial species and their respective OTUs prominently. Users can effortlessly hover over the bar chart to gain insightful details about each species.
 
-[Figure 2a](https://github.com/davidhyongae2/bacteria/blob/main/Figure2a.png)
+![Figure 1](https://github.com/davidhyongae2/bacteria/blob/main/Figure1.png).
 
-A gauge chart is one of the more unique types, where a clear categorical depiction of volunteers' belly button washing is compared to either a bar chart or bubble chart alongside the Gauge chart. For each sample, the OTU relationship of the volunteers' samples and the bacteria genus forms the biodiversity. There appears to be a greater degree of OTU for the initial sample, while the OTU variation is greater with more sampling. Further studies need to be done which may lead to hospital care and proper clinical testing of the samples. 
+The bubble chart visually represents the diversity of bacteria species classified by Operational Taxonomic Units (OTUs). Each sample is characterized by attributes including ID, ethnicity, gender, location, age, and frequency, while also demonstrating the overlap of OTUs at the sample level.
 
-[Figure 2b](https://github.com/davidhyongae2/bacteria/blob/main/Figure2b.png).
+![Figure 2a](https://github.com/davidhyongae2/bacteria/blob/main/Figure2a.png)
 
-## Summary
-1. Provide a high-level usage of d3.js and other plotly to translate sample.json to create a functional web app.
+A gauge chart effectively illustrates the frequency of volunteers who wash their belly buttons, allowing for comparison with a bar chart or bubble chart. It highlights the relationship between the samples' operational taxonomic units (OTUs) and the associated bacterial genera, thereby showcasing biodiversity. The initial sample exhibits a higher number of OTUs, while greater variation is observed with increased sampling. Further research is necessary to enhance hospital care and clinical testing practices.
 
-2. One of the drawbacks of this dataset does not have a clear phylogenetic classification and is limited to only 10 OTU. While, the study as reported by Hulcr et al. A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable Plos one. Nov 7, 2012, has more than 1000s genus.
+![Figure 2b](https://github.com/davidhyongae2/bacteria/blob/main/Figure2b.png).
 
-3. One recommendation is to look for a control dataset and compare it to this dataset to improve biodiversity in the human population either by performing the multiple sample analysis or limiting the study to one particular categorical study to the control dataset.
-Hulcr, J. et al.(2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
+## Discussion
+1. Describe how to utilize D3.js and Plotly to transform `sample.json` into a functional web application.
+
+2. One limitation of this dataset is its lack of clear phylogenetic classification and its focus on only 10 OTU. In contrast, the study by Hulcr et al., titled "A Jungle in There: Bacteria in Belly Buttons Are Highly Diverse but Predictable," published in PLOS ONE on November 7, 2012, includes data on thousands of genera.
+
+3. One suggestion is to utilize a control dataset for comparison purposes. This could enhance our understanding of biodiversity within the human population through multiple sample analyses or by focusing on a specific categorical study.
+
+Hulcr, J. et al. (2012). A Jungle in There: Bacteria in Belly Buttons Are Highly Diverse but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
